@@ -32,24 +32,25 @@
 
             <!-- Button group -->
             <div class="add-btn-group">
-                <div class="add-btn">
+                <div class="add-btn" onClick="showInputBox(0)">
                     <span class="plus-sign">+</span>
                     <span>
                         Add Item
                     </span>
                 </div>
-                <div class="add-btn solid">
+                <div class="add-btn solid"  onClick="hideInputBox(0)">
                     <span>
                         Save Item
                     </span>
                 </div>
-
+            </div>
                 <div class="add-container">
-                    <div class="add-item">
+            <!-- content editable -->
+                    <div class="add-item" contenteditable="true">
 
                     </div>
                 </div>
-            </div>
+   
         </li>
              <!-- Progress column -->
              <li class="drag-column progress-column">
@@ -70,24 +71,24 @@
     
                 <!-- Button group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onClick="showInputBox(1)">
                         <span class="plus-sign">+</span>
                         <span>
                             Add Item
                         </span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid" onClick="hideInputBox(1)">
                         <span>
                             Save Item
                         </span>
                     </div>
-    
+                </div>
                     <div class="add-container">
-                        <div class="add-item">
+                        <div class="add-item" contenteditable="true">
     
                         </div>
                     </div>
-                </div>
+           
             </li>
 
                  <!-- Complete column -->
@@ -109,24 +110,24 @@
 
             <!-- Button group -->
             <div class="add-btn-group">
-                <div class="add-btn">
+                <div class="add-btn" onClick="showInputBox(2)">
                     <span class="plus-sign">+</span>
                     <span>
                         Add Item
                     </span>
                 </div>
-                <div class="add-btn solid">
+                <div class="add-btn solid"  onClick="hideInputBox(2)">
                     <span>
                         Save Item
                     </span>
                 </div>
-
+            </div>
                 <div class="add-container">
-                    <div class="add-item">
+                    <div class="add-item" contenteditable="true">
 
                     </div>
                 </div>
-            </div>
+ 
         </li>
 
              <!-- On Hold column -->
@@ -148,24 +149,24 @@
     
                 <!-- Button group -->
                 <div class="add-btn-group">
-                    <div class="add-btn">
+                    <div class="add-btn" onClick="showInputBox(3)">
                         <span class="plus-sign">+</span>
                         <span>
                             Add Item
                         </span>
                     </div>
-                    <div class="add-btn solid">
+                    <div class="add-btn solid"  onClick="hideInputBox(3)">
                         <span>
                             Save Item
                         </span>
                     </div>
-    
+                </div>
                     <div class="add-container">
-                        <div class="add-item">
+                        <div class="add-item" contenteditable="true">
     
                         </div>
                     </div>
-                </div>
+   
             </li>
     </ul>
 </div>
